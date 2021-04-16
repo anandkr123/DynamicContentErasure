@@ -15,9 +15,9 @@ Dynamic content erasure that learns to differentiate between dynamic and static 
 
 **"filled_png_test_thresh"**                    --> 18 test forms to evaluate the results.
 
-**"realistic_masked_test_images"**              --> Target masked form images for the network model.
+**"realistic_masked_test_images"**              --> Target masked form images.
 
-**"realistic_threshold_predicted_test_images"** --> The predicted masked results of the NN model on 18 test forms.
+**"realistic_threshold_predicted_test_images"** --> The predicted masked results on 18 test forms.
 
 **"predicted_original_form"**                   --> Restored empty original form obtained from subtracting "filled_png_test_thresh" from       "realistic_threshold_predicted_test_images"             
 
