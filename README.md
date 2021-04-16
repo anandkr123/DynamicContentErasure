@@ -1,5 +1,7 @@
 # DynamicContentErasure
 
+Dynamic content erasure that learns to differentiate between dynamic and static text present in a document image and selectively finds and erases dynamic content present in a filled form document.
+
 Model flow at training time
 
 [training_model.pdf](https://github.com/anandkr123/DynamicContentErasure/files/6322903/training_model.pdf)
