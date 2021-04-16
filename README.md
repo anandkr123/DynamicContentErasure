@@ -7,7 +7,7 @@ Model flow at training time
 
 Model flow during inference mode
 
-testing_model.pdf](https://github.com/anandkr123/DynamicContentErasure/files/6322904/testing_model.pdf)
+[testing_model.pdf](https://github.com/anandkr123/DynamicContentErasure/files/6322904/testing_model.pdf)
 
 
 Dice score on 18 test forms
