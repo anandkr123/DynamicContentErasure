@@ -21,6 +21,30 @@ Dynamic content erasure that learns to differentiate between dynamic and static 
 
 **"predicted_original_form"**                   --> Restored empty original form obtained from subtracting "filled_png_test_thresh" from       "realistic_threshold_predicted_test_images"             
 
+
+## Scripts description
+
+**generate_pdf_dataset.py**      --> Extract relevant pdfs from the forms fulfilling the pdfs selection criteria and populate it with text at random coordinates.
+
+**convert_pdfs_to_pngs.py**     --> Converts pdfs to pngs and generate masked document images (target mask) of dynamic content.
+
+**tile_train_images.py**         --> Tiling the input dataset to feed into the neural network.
+
+**tile_test_images.py**        -> Tiling the test images to predict the results. Stores the tiled image path in JSON file to remerge it and evaluate the results.
+
+**merge_masked_and cal_dice_score.py**  --> Merged the predicted masked images and caluclate the dice score between target masked images and merged masked images.
+
+**restore_original_and_cal_dice_score.py** --> Restore the predicted original empty form using image processing and calculate the dice score.
+
+**fake_data_generator.py**       --> Generates the fake tax data set
+
+**multiresunet_secondmodel.py**  --> MutiResUnet model architecture (link- https://arxiv.org/pdf/1902.04049.pdf)
+
+**multiresunet_secondmodel_train.py**   --> Read input images using a generator function, trains the model using GPU.
+
+**multiresunet_secondmodel_test.py**    --> Reads test images and predicts the results from the pre-trained model
+
+
 ## Dice score on 18 test forms
 
 Dice score between target mask and restore masked image
