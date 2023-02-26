@@ -4,12 +4,14 @@ Dynamic content erasure that learns to differentiate between dynamic and static 
 
 ## Model flow at training time
 
-[training_model.pdf](https://github.com/anandkr123/DynamicContentErasure/files/6322903/training_model.pdf)
+![training_model](https://user-images.githubusercontent.com/23450113/221436039-9daf6a9a-c393-40c7-8d52-8bb0959b0374.png)
 
 
 ## Model flow during inference mode
 
-[testing_model.pdf](https://github.com/anandkr123/DynamicContentErasure/files/6322904/testing_model.pdf)
+![testing_model-1](https://user-images.githubusercontent.com/23450113/221436069-6556c934-f29f-429b-8644-d3aa99c34ed1.png)
+
+
 
 ## Directories description
 
