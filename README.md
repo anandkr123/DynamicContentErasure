@@ -64,7 +64,7 @@ The pipeline flow along with image processing steps is explained in testing_mode
 
 ### Filled form
 
-![original_0011](https://user-images.githubusercontent.com/23450113/221436685-cf6de587-3662-43d7-8d9f-c9de4412013f.png)
+![filled_0011](https://user-images.githubusercontent.com/23450113/221437032-cbfbb71c-2168-4061-94d1-af678c47727b.png)
 
 ### Empty form
 
