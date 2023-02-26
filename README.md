@@ -63,17 +63,13 @@ Dice score between target mask and restore masked image
 ** The pipeline flow along with image processing steps is explained in testing_model above.
 
 ### Filled form
-
 ![filled_0011](https://user-images.githubusercontent.com/23450113/221437032-cbfbb71c-2168-4061-94d1-af678c47727b.png)
 
 ### Empty form
-
 ![original_0011](https://user-images.githubusercontent.com/23450113/221436779-bde8af78-abf4-4fa9-9d5d-bff6cb81481b.png)
 
 ### Predicted mask (only dynamic content)
-
 ![predicted_0011](https://user-images.githubusercontent.com/23450113/221436814-87c89d08-07c7-44ed-a23b-5de9c18d60a2.png)
 
 ### Restored original form (Subtract the mask image from filled form)
-
 ![original_0011](https://user-images.githubusercontent.com/23450113/221436866-51332389-cd1e-46d2-ab8b-db08d51b2e2b.png)
