@@ -56,3 +56,24 @@ Dice score between target mask and restore masked image
 ## Dice score between original empty form and restore original form
 
 <img width="657" alt="dice_score_static_content" src="https://user-images.githubusercontent.com/23450113/114979651-8f7e6480-9e8b-11eb-8867-20a1ff74301a.png">
+
+
+Visulaise results on Form 11,with the lowest dice score (Dice score masked predictions- 0.53, Dice score restored form - 0.93)
+
+The pipeline flow along with image processing steps is explained in testing_model above.
+
+### Filled form
+
+![original_0011](https://user-images.githubusercontent.com/23450113/221436685-cf6de587-3662-43d7-8d9f-c9de4412013f.png)
+
+### Empty form
+
+![original_0011](https://user-images.githubusercontent.com/23450113/221436779-bde8af78-abf4-4fa9-9d5d-bff6cb81481b.png)
+
+### Predicted mask (only dynamic content)
+
+![predicted_0011](https://user-images.githubusercontent.com/23450113/221436814-87c89d08-07c7-44ed-a23b-5de9c18d60a2.png)
+
+### Restored original form (Subtract the mask image from filled form)
+
+![original_0011](https://user-images.githubusercontent.com/23450113/221436866-51332389-cd1e-46d2-ab8b-db08d51b2e2b.png)
