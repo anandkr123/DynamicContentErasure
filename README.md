@@ -2,6 +2,8 @@
 
 Dynamic content erasure that learns to differentiate between dynamic and static text present in a document image and selectively finds and erases dynamic content present in a filled form document.
 
+### Deep Learning concepts of Image segmentation, ResNet, Inception Net
+
 ## Model flow at training time
 
 ![training_model](https://user-images.githubusercontent.com/23450113/221436039-9daf6a9a-c393-40c7-8d52-8bb0959b0374.png)
